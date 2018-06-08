@@ -1,0 +1,404 @@
+body {
+    margin-top: 10vw;
+    padding: 0;
+    background-color: #8fc6de;
+}
+
+#scene {
+
+    width: 80vw;
+    /* svarer til 2600px */
+    height: 50vw;
+    /* svarer til 900 px */
+    position: relative;
+}
+
+#send {
+    border: 2px solid #e68333;
+    position: absolute;
+    width: 15vw;
+    height: 6vw;
+    text-align: center;
+    border-radius: 28vw;
+    font-weight: bold;
+    font-family: "Kohinoor Bangla";
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    z-index: 20;
+    padding-top: 2vw;
+    left: 10vw;
+    top: 29vw;
+    margin-right: 10%;
+
+
+}
+
+#sendikke {
+    border: 2px solid #e68333;
+    position: absolute;
+    width: 15vw;
+    height: 6vw;
+    text-align: center;
+    border-radius: 28vw;
+    font-weight: bold;
+    font-family: "Kohinoor Bangla";
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    z-index: 20;
+    padding-top: 2vw;
+    left: 75vw;
+    top: 29vw;
+    margin-right: 10%;
+
+}
+
+
+#start {
+    border: 2px solid #e68333;
+    position: absolute;
+    width: 15vw;
+    height: 5vw;
+    text-align: center;
+    border-radius: 28vw;
+    font-weight: bold;
+    font-family: "Kohinoor Bangla";
+    color: #ffffff;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 20;
+    padding: 1vw;
+    top: 29vw;
+
+}
+
+#retry {
+    border: 2px solid #e68333;
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    text-align: center;
+    border-radius: 28vw;
+    font-weight: bold;
+    font-family: "Kohinoor Bangla";
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor: pointer;
+    z-index: 20;
+    padding-top: 2vw;
+    top: -8vw;
+}
+
+#start:hover {
+    background: #e68333;
+    background-image: linear-gradient(to bottom, #e68333, #8f5218);
+    text-decoration: none;
+    z-index: 20;
+}
+
+#send:hover {
+    background: #e68333;
+    background-image: linear-gradient(to bottom, #e68333, #8f5218);
+    text-decoration: none;
+    z-index: 20;
+}
+
+#sendikke:hover {
+    background: #e68333;
+    background-image: linear-gradient(to bottom, #e68333, #8f5218);
+    text-decoration: none;
+    z-index: 20;
+}
+
+#retry:hover {
+    background: #e68333;
+    background-image: linear-gradient(to bottom, #e68333, #8f5218);
+    text-decoration: none;
+    z-index: 20;
+}
+
+
+#forside {
+    background-image: url(grafik/forside.svg);
+    background-size: 100%;
+    width: 29.7vw;
+    height: 24.6vw;
+    top: 14vw;
+    left: 32vw;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#hjerte {
+    background-image: url(grafik/hjerte.svg);
+    background-size: 100%;
+    left: 15vw;
+    width: 64.76vw;
+    height: 53.74vw;
+    position: absolute;
+    z-index: 1;
+}
+
+#kissing {
+    background-image: url(grafik/kissing.svg);
+    background-size: 100%;
+    width: 23.37vw;
+    height: 33.6vw;
+    top: 10vw;
+    left: 35vw;
+    position: absolute;
+    z-index: 5;
+
+}
+
+#moerke {
+    pointer-events: none;
+}
+
+.dark_scene {
+    background-color: rgba(0, 0, 150, .5);
+    background-blend-mode: darken;
+    position: absolute;
+    top: -10vw;
+    left: 0;
+    width: 150vw;
+    height: 150vw;
+    z-index: 90;
+    animation-name: dark;
+    animation-duration: 7s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+
+@keyframes dark {
+    0% {
+        background-color: rgba(0, 0, 150, 0);
+    }
+    100% {
+        background-color: rgba(0, 0, 150, .5);
+    }
+}
+
+
+#hjerte2 {
+    position: absolute;
+
+    background-image: url(grafik/hjerte.svg);
+    background-size: 100% 100%;
+
+    left: 20vw;
+    width: 64.76vw;
+    height: 53.76vw;
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.02);
+
+    animation-name: hjerte_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes hjerte_kf {
+    from {
+
+        transform: scale(1.8);
+    }
+
+    to {
+
+        transform: scale(0.02);
+    }
+
+}
+
+#kissing2 {
+    background-image: url(grafik/kissing.svg);
+    background-size: 100%;
+    width: 23.37vw;
+    height: 33.6vw;
+    top: 10vw;
+    left: 40.6vw;
+    position: absolute;
+    z-index: 5;
+
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.02);
+
+    animation-name: hjerte_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+
+#iphone1 {
+    background-image: url(grafik/iphonetextnotsent.svg);
+    background-size: 100%;
+    left: 20vw;
+    width: 63.2775vw;
+    height: 78.125vw;
+    position: absolute;
+    z-index: 1;
+    top: -5vw;
+}
+
+#iphone2 {
+    background-image: url(grafik/iphonetextsent.svg);
+    background-size: 100%, 200%;
+    left: 20vw;
+    width: 63.2775vw;
+    height: 78.125vw;
+    position: absolute;
+    z-index: 4;
+    top: -5vw;
+}
+
+#chokface1 {
+    background-image: url(grafik/chokface1.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+    top: 30vw;
+}
+
+#chokface2 {
+    background-image: url(grafik/chokface2.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+    top: 30vw;
+    left: 60vw;
+
+}
+
+
+#chokface3 {
+    background-image: url(grafik/chokface3.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+    top: 30vw;
+    left: 50vw;
+
+}
+
+#chokface4 {
+    background-image: url(grafik/chokface4.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+    top: 31vw;
+    left: 10vw;
+}
+
+#chokface5 {
+    background-image: url(grafik/chokface5.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+    top: 30vw;
+    left: 20vw;
+}
+
+#chokface6 {
+    background-image: url(grafik/chokface6.svg);
+    background-size: 100%;
+    width: 47.25vw;
+    height: 37.81vw;
+    position: absolute;
+    z-index: 5;
+    top: 30vw;
+    left: 35vw;
+}
+
+#cry {
+    background-image: url(grafik/cry.svg);
+    background-size: 100%;
+    width: 40.187vw;
+    height: 31.56vw;
+    position: absolute;
+    z-index: 5;
+    left: 60vw;
+}
+
+#politisur {
+    background-image: url(grafik/politisur.svg);
+    background-size: 100%;
+    width: 121.25vw;
+    height: 90vw;
+    position: absolute;
+    z-index: 5;
+    top: -11vw;
+    left: -7vw;
+    transform: scale(0.7)
+}
+
+
+#polititext {
+    background-image: url(grafik/polititext.svg);
+    background-size: 100%;
+    width: 121.25vw;
+    height: 94vw;
+    position: absolute;
+    z-index: 5;
+    top: -11vw;
+    left: 0vw;
+    transform: scale(0.8)
+}
+
+#logo1 {
+    background-image: url(grafik/PrivatSnak_logo.png);
+    background-size: 100%;
+    width: 52vw;
+    height: 37.24vw;
+    position: absolute;
+    z-index: 5;
+    top: 44vw;
+    left: 40vw;
+    transform: scale(0.4);
+    cursor: pointer;
+}
+
+#logo2 {
+    background-image: url(grafik/PrivatSnak_logo.png);
+    background-size: 100%;
+    width: 52vw;
+    height: 37.24vw;
+    position: absolute;
+    z-index: 5;
+    top: 38vw;
+    left: 54vw;
+    transform: scale(0.4);
+    cursor: pointer;
+}
+
+h2 {
+    font-family: "Kohinoor Bangla";
+    text-align: center;
+    padding-top: 20vw;
+    padding-left: 34vw;
+    font-size: 2em;
+    color: white;
+}
+
+h3 {
+    font-family: "Kohinoor Bangla";
+    font-size: 1em;
+    color: white;
+    margin-top: 25%
+}

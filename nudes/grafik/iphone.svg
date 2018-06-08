@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375.03" height="749.01" viewBox="0 0 375.03 749.01">
+  <defs>
+    <linearGradient id="linear-gradient" x1="187.52" y1="727.11" x2="187.52" y2="672.95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3e3e3c"/>
+      <stop offset="0"/>
+      <stop offset="0.01" stop-color="#9d9d9c"/>
+      <stop offset="0.41" stop-color="#f7f7f7"/>
+      <stop offset="0.61" stop-color="#fff"/>
+      <stop offset="0.95" stop-color="#959594"/>
+      <stop offset="1" stop-color="#242422"/>
+    </linearGradient>
+  </defs>
+  <title>iphone</title>
+  <g id="iphone">
+    <path d="M226.17,853.47H522s32.65,3.06,33.67-43.88,0-654,0-654,4.08-41.83-34.69-47.95-285.67,0-285.67,0-37.75-2-45.91,40.81,0,672.36,0,672.36S198.62,858.57,226.17,853.47Z" transform="translate(-183.47 -104.93)" fill="#d5d6d9"/>
+    <path d="M229,846H519s32,3,33-43,0-641,0-641,4-41-34-47-280,0-280,0-37-2-45,40,0,659,0,659S202,851,229,846Z" transform="translate(-183.47 -104.93)" fill="#ededed"/>
+    <rect x="370.36" y="131.09" width="4.67" height="46.22" fill="#d5d6d9"/>
+    <rect y="143.3" width="4.67" height="35.54" fill="#d5d6d9"/>
+    <rect y="104.61" width="4.67" height="21.22" fill="#d5d6d9"/>
+    <rect y="183.95" width="4.67" height="35.54" fill="#d5d6d9"/>
+    <rect x="368.61" y="79.48" width="3.68" height="13.63" fill="#bcbcbc"/>
+    <rect x="368.61" y="662.41" width="3.68" height="13.63" fill="#bcbcbc"/>
+    <rect x="6.02" y="662.41" width="3.68" height="13.63" fill="#bcbcbc"/>
+    <rect x="4.18" y="79.48" width="3.68" height="13.63" fill="#bcbcbc"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <g id="skærm">
+      <rect x="28.57" y="93.11" width="324" height="568" fill="#f6f6f6"/>
+    </g>
+  </g>
+  <g id="Layer_8" data-name="Layer 8">
+    <polygon points="28.57 93.11 352.57 93.11 28.57 661.11 28.57 93.11" fill="#fcfcfc"/>
+  </g>
+  <g id="Layer_7" data-name="Layer 7">
+    <circle cx="68.07" cy="104.61" r="1" fill="#a1a5b3"/>
+    <path d="M248.54,206.54s-.71,2.12,1.39,1.14,3.18-.1,3.18-.1,1.74.92,1.18-.77S249.06,205.49,248.54,206.54Z" transform="translate(-183.47 -104.93)" fill="#a1a5b3"/>
+    <path d="M246.8,204.25s-.62,2.38,1.44,1.4,3.76-2.07,6.16-.27,1.27-1.59,1.27-1.59S250.49,199.63,246.8,204.25Z" transform="translate(-183.47 -104.93)" fill="#a1a5b3"/>
+    <circle cx="58.1" cy="101.46" r="1.84" fill="#a1a5b3"/>
+    <circle cx="46.05" cy="101.46" r="1.84" fill="#a1a5b3"/>
+    <circle cx="40.1" cy="101.46" r="1.84" fill="#a1a5b3"/>
+    <circle cx="35.02" cy="101.46" r="1.84" fill="#a1a5b3"/>
+    <circle cx="52.05" cy="101.46" r="1.84" fill="#a1a5b3"/>
+    <polygon points="331.21 97.81 331.21 105.61 347.82 105.61 347.82 103.62 348.91 103.62 348.91 99.62 347.82 99.62 347.82 97.81 331.21 97.81" fill="#c3c4c7"/>
+    <rect x="332" y="98.61" width="14" height="5.91" fill="#fcfcfc"/>
+    <rect x="331.96" y="98.61" width="8.72" height="5.91" fill="#aeaeb1"/>
+    <text transform="translate(308.75 104.91)" font-size="10" fill="#adadad" font-family="MyriadPro-Regular, Myriad Pro">76%</text>
+    <text transform="translate(175.92 103.78)" font-size="10" fill="#adadad" font-family="MyriadPro-Regular, Myriad Pro">21:22</text>
+  </g>
+  <g id="Layer_6" data-name="Layer 6">
+    <circle cx="192.07" cy="29.61" r="3.5" fill="#a1a5b3"/>
+    <circle cx="142.57" cy="51.11" r="4.5" fill="#a1a5b3"/>
+    <path d="M351.54,153.54h44s4,4,0,5h-44S347.54,154.54,351.54,153.54Z" transform="translate(-183.47 -104.93)" fill="#a1a5b3"/>
+  </g>
+  <g id="knap">
+    <circle cx="187.52" cy="700.03" r="25.08" fill="none" stroke-miterlimit="10" stroke-width="4" stroke="url(#linear-gradient)"/>
+  </g>
+</svg>

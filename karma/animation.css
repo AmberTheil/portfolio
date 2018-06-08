@@ -1,0 +1,1154 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#scene {
+
+    width: 100vw;
+    /* svarer til 2600px */
+    height: 56.25vw;
+    /* svarer til 900 px */
+    position: relative;
+    overflow: hidden;
+}
+
+#forgrund {
+    background-image: url("grafik/forgrund.svg");
+    background-size: 100%, 100%;
+    width: 162.5vw;
+    height: 56.5vw;
+    position: absolute;
+    z-index: 200;
+    top: 0vw;
+    left: -50vw;
+    pointer-events: none;
+}
+
+
+#baggrund {
+    background-image: url("grafik/baggrund-01.svg");
+    background-size: 162.5%;
+    width: 162.5vw;
+    height: 56.5vw;
+    position: relative;
+    background-size: contain;
+    top: -21vw;
+
+}
+
+.baggrund_moves {
+    animation-name: baggrund_moves_kf;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes baggrund_moves_kf {
+    0% {
+        transform: translateX(0vw);
+    }
+    100% {
+        transform: translateX(-50vw);
+    }
+}
+
+.baggrund_start {
+    transform: translateX(0)
+}
+
+
+/* -------- GORILLA WALK -------- */
+
+#gorilla_sprite {
+
+    background-image: url(grafik/gorillasprite.svg);
+    background-size: 900% 600%;
+    left: -35vw;
+    top: 7vw;
+
+    width: 17.66vw;
+    height: 25.45vw;
+
+}
+
+#gorilla_container {
+    position: absolute;
+}
+
+.walk_gorilla {
+    animation-name: walk_gorilla_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(7);
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes walk_gorilla_kf {
+
+    from {
+        background-position: 0% 0%;
+    }
+
+    to {
+        background-position: -700% -0%;
+    }
+
+}
+
+.moving_gorilla {
+
+    animation-name: moving_gorilla_kf;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes moving_gorilla_kf {
+
+    0% {
+        left: -25vw;
+        top: 27vw;
+    }
+
+    100% {
+        left: 15vw;
+        top: 27vw;
+    }
+
+}
+
+.moving_gorilla3 {
+
+    animation-name: moving_gorilla3_kf;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes moving_gorilla3_kf {
+
+    0% {
+        left: 25vw;
+        top: 27vw;
+    }
+
+    100% {
+        left: 10vw;
+        top: 27vw;
+    }
+
+}
+
+
+
+/* -------- GORILLA SIT -------- */
+
+.sit_gorilla {
+    background-position: 0 -400%;
+}
+
+/*--------- GORILLA SPIS------*/
+
+.gorilla_spis {
+    animation-name: gorilla_spis_kf;
+    animation-duration: 8s;
+    animation-timing-function: steps(6);
+    animation-delay: 6.7s;
+}
+
+@keyframes gorilla_spis_kf {
+    from {
+        background-position: 0% -300%;
+    }
+    to {
+        background-position: -600% -300%;
+    }
+}
+
+
+/*------- Gorilla Går og får skildpadde i hovedet ------ */
+
+.moving_gorilla2 {
+
+    animation-name: moving_gorilla2_kf;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes moving_gorilla2_kf {
+
+    0% {
+        left: 13vw;
+        top: 27vw;
+    }
+
+    100% {
+        left: 30vw;
+        top: 27vw;
+    }
+
+}
+
+/*----------- Gorilla faldt --------- */
+
+.gorilla_faldt {
+    animation-name: gorilla_faldt_kf;
+    animation-duration: 8s;
+    animation-timing-function: steps(9);
+    animation-fill-mode: backwards;
+
+}
+
+@keyframes gorilla_faldt_kf {
+    from {
+        background-position: 0% -100%;
+    }
+    to {
+        background-position: -900% -100%;
+    }
+}
+
+
+/* ---------- Gorilla cry -------- */
+
+.gorilla_cry {
+    background-position: -800% -100%;
+}
+
+
+/*--------- GORILLA PLASTER -------- */
+
+.gorilla_plaster {
+    background-position: 0 -200%;
+    animation-fill-mode: backwards;
+    animation-delay: 5s;
+
+}
+
+/*---------- GORILLA FLAD ---------- */
+
+.gorilla_flad {
+    animation-name: gorilla_flad_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+
+}
+
+@keyframes gorilla_flad_kf {
+
+    0% {
+        transform: scaleY(1);
+    }
+
+    100% {
+        transform: scaleY(.2);
+
+    }
+}
+
+.moving_gorilla4 {
+
+    animation-name: moving_gorilla4_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    left: 30vw;
+    top: 27vw;
+    animation-delay: 4s;
+}
+
+@keyframes moving_gorilla4_kf {
+
+    0% {
+        left: 30vw;
+        top: 27vw;
+    }
+
+    100% {
+        left: 30vw;
+        top: 35vw;
+    }
+}
+
+/*---- ABE START-------*/
+
+#abe_sprite {
+
+    background-image: url(grafik/abesprite.svg);
+    background-size: 800% 700%;
+    position: absolute;
+
+    width: 10.93vw;
+    height: 15.6vw;
+    z-index: 4;
+}
+
+
+#abe_container {
+    position: absolute;
+}
+
+
+.walk_banana_abe {
+    animation-name: walk_banana_abe_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes walk_banana_abe_kf {
+    from {
+        background-position: 0% -100%;
+    }
+    to {
+        background-position: -800% -100%;
+    }
+}
+
+.walk_abe {
+    animation-name: walk_abe_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes walk_abe_kf {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: -800% 0%;
+    }
+}
+
+.moving_abe {
+    animation-name: moving_abe_kf;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes moving_abe_kf {
+
+    0% {
+        left: -20vw;
+        top: 35vw;
+    }
+
+    100% {
+        left: 15vw;
+        top: 35vw;
+    }
+}
+
+.moving_abe2 {
+    animation-name: moving_abe2_kf;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moving_abe2_kf {
+
+    0% {
+        left: 26vw;
+        top: 36vw;
+    }
+
+    100% {
+        left: 26vw;
+        top: 36vw;
+    }
+}
+
+.moving_abe3 {
+    animation-name: moving_abe3_kf;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moving_abe3_kf {
+
+    0% {
+        left: 26vw;
+        top: 36vw;
+    }
+
+    100% {
+        left: 28vw;
+        top: 36vw;
+    }
+}
+
+.moving_abe4 {
+    animation-name: moving_abe4_kf;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moving_abe4_kf {
+
+    0% {
+        left: 32vw;
+        top: 27vw;
+    }
+
+    100% {
+        left: 50vw;
+        top: 27vw;
+    }
+}
+
+
+
+/* Abe vred */
+
+.abe_vred {
+    animation-name: abe_vred_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+    left: -4vw;
+
+}
+
+@keyframes abe_vred_kf {
+    from {
+        background-position: 0% -200%;
+    }
+    to {
+        background-position: -200% -200%;
+    }
+}
+
+
+/*------ ABE STÅR BANAN--------- */
+
+.still_banana_abe {
+    animation-name: still_banana_abe_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes still_banana_abe_kf {
+    from {
+        background-position: 0% -100%;
+    }
+    to {
+        background-position: 0% -100%;
+    }
+}
+
+/*------------ ABE GRINER -----------*/
+
+.abe_griner {
+    animation-name: abe_griner_kf;
+    animation-duration: 3s;
+    animation-timing-function: steps(4);
+    left: -4vw;
+
+}
+
+@keyframes abe_griner_kf {
+    from {
+        background-position: 0% -300%;
+    }
+    to {
+        background-position: -400% -300%;
+    }
+}
+
+.abe_griner_still {
+    background-position: -300% -300%;
+    left: -4vw;
+}
+
+
+
+/*---------------- ABE PLASTER -------- */
+
+.abe_plaster {
+    animation-name: abe_plaster_kf;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(3);
+
+}
+
+@keyframes abe_plaster_kf {
+    from {
+        background-position: 0% -400%;
+    }
+    to {
+        background-position: -300% -400%;
+    }
+}
+
+/* ---------- ABE CHOK ----------- */
+
+.abe_chok {
+    background-position: 0% -500%;
+    left: -4vw;
+}
+
+/* ---------- ABE flad ----------- */
+
+.abe_flad {
+    animation-name: abe_flad_kf;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+
+}
+
+@keyframes abe_flad_kf {
+
+    0% {
+        transform: scaleY(1);
+    }
+
+    100% {
+        transform: scaleY(.2);
+
+    }
+}
+
+.moving_abe5 {
+
+    animation-name: moving_abe5_kf;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    left: 15vw;
+    top: 36vw;
+    animation-delay: 4s;
+}
+
+@keyframes moving_abe5_kf {
+
+    0% {
+        left: 15vw;
+        top: 36vw;
+    }
+
+    100% {
+        left: 15vw;
+        top: 41vw;
+    }
+
+}
+
+/* ------SKILDPADDE--------*/
+
+#skildpadde {
+    background-image: url(grafik/skildpaddesprite.svg);
+    background-size: 300% 100%;
+    width: 12.3vw;
+    height: 17.4vw;
+    position: absolute;
+    left: 52vw;
+    top: 32vw;
+    z-index: 9;
+}
+
+.skildpadde_falder {
+    animation-name: skildpadde_falder_kf;
+    animation-duration: 1s;
+    background-size: 0% 0%;
+
+}
+
+@keyframes skildpadde_falder_kf {
+
+    0% {
+        left: 39vw;
+        top: -77vw;
+    }
+    75% {
+        left: 35vw;
+        top: 25vw;
+    }
+    100% {
+        left: 52vw;
+        top: 32vw;
+    }
+}
+
+
+.skildpadde_pop {
+    animation-name: skildpadde_pop_kf;
+    animation-duration: 2s;
+    background-position: 200% 0%;
+    animation-fill-mode: forwards;
+    left: 52vw;
+    top: 32vw;
+}
+
+@keyframes skildpadde_pop_kf {
+
+    0% {
+        left: 52vw;
+        top: 32vw;
+    }
+    100% {
+        left: 54vw;
+        top: 34vw;
+    }
+}
+
+.skildpadde_still {
+    animation-name: skildpadde_still_kf;
+    animation-duration: 2s;
+    left: 52vw;
+    top: 32vw;
+    z-index: 12;
+}
+
+@keyframes skildpadde_still_kf {
+
+    100% {
+        left: 52vw;
+        top: 32vw;
+    }
+
+}
+
+
+
+
+/*------------- STEN -----------*/
+
+#sten_sprite {
+
+    background-image: url(grafik/sten.svg);
+    background-size: 1300% 100%;
+    position: absolute;
+
+    width: 27vw;
+    height: 40.5vw;
+    z-index: 13;
+
+}
+
+#sten_container {
+    position: absolute;
+}
+
+.sten_walk {
+    animation-name: sten_walk_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(13);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes sten_walk_kf {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: -1300% 0%;
+    }
+}
+
+.moving_sten {
+    animation-name: moving_sten_kf;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moving_sten_kf {
+
+    0% {
+        left: 70vw;
+        top: 10vw;
+    }
+
+    100% {
+        left: 60vw;
+        top: 17vw;
+    }
+}
+
+.moving_sten2 {
+    animation-name: moving_sten2_kf;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moving_sten2_kf {
+
+    0% {
+        left: 60vw;
+        top: 20vw;
+    }
+
+    100% {
+        left: 27vw;
+        top: 17vw;
+    }
+}
+
+.sten_still {
+    background-position: -1300% 0%;
+}
+
+.moving_sten3 {
+    animation-name: moving_sten3_kf;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moving_sten3_kf {
+
+    0% {
+        left: 60vw;
+        top: 20vw;
+    }
+
+    100% {
+        left: 56vw;
+        top: 17vw;
+    }
+}
+
+
+
+/*--------- BIRD -------- */
+
+#fugl1 {
+    background-image: url("grafik/fugl.png");
+    background-size: 100%;
+    width: 22vw;
+    height: 4.2vw;
+    position: absolute;
+    top: 20vw;
+    left: 100vw;
+    z-index: 2;
+    transform: scale(0.1, 0.1);
+    animation: move 15s infinite linear;
+    animation-name: fugll;
+
+}
+
+#fugl2 {
+    background-image: url("grafik/fugl.png");
+    background-size: 100%;
+    width: 22vw;
+    height: 4.2vw;
+    position: absolute;
+    top: 20vw;
+    left: 100vw;
+    z-index: 2;
+    transform: scale(0.1, 0.1);
+    animation: move 15s infinite linear;
+    animation-name: fugll;
+    animation-delay: 2s;
+
+}
+
+#fugl3 {
+    background-image: url("grafik/fugl.png");
+    background-size: 100%;
+    width: 22vw;
+    height: 4.2vw;
+    position: absolute;
+    top: 20vw;
+    left: 100vw;
+    z-index: 2;
+    transform: scale(0.1, 0.1);
+    animation: move 10s infinite linear;
+    animation-name: fuglll;
+
+}
+
+#fugl4 {
+    background-image: url("grafik/fugl.png");
+    background-size: 100%;
+    width: 22vw;
+    height: 4.2vw;
+    position: absolute;
+    top: 30vw;
+    left: 50vw;
+    z-index: 2;
+    transform: scale(0.1, 0.1);
+    animation: move 8s infinite linear;
+    animation-name: fugllll;
+
+}
+
+#fugl5 {
+    background-image: url("grafik/fugl.png");
+    background-size: 100%;
+    width: 22vw;
+    height: 4.2vw;
+    position: absolute;
+    top: 30vw;
+    left: 50vw;
+    z-index: 2;
+    transform: scale(0.1, 0.1);
+    animation: move 8s infinite linear;
+    animation-name: fugllll;
+    animation-delay: 4s;
+
+}
+
+
+@keyframes fugll {
+    0% {
+        left: 73vw;
+        top: 21vw;
+    }
+    20% {
+        left: 74vw;
+        top: 22vw;
+    }
+    50% {
+        left: 75vw;
+        top: 23vw;
+    }
+    75% {
+        left: 74vw;
+        top: 22vw;
+    }
+    100% {
+        left: 73vw;
+        top: 21vw;
+    }
+}
+
+@keyframes fuglll {
+    0% {
+        left: 70vw;
+        top: 20vw;
+    }
+    50% {
+        left: 70vw;
+        top: 19vw;
+    }
+    100% {
+        left: 70vw;
+        top: 20vw;
+    }
+}
+
+@keyframes fugllll {
+    0% {
+        left: 35vw;
+        top: 20vw;
+    }
+    50% {
+        left: 37vw;
+        top: 19vw;
+    }
+    100% {
+        left: 35vw;
+        top: 20vw;
+    }
+}
+
+/*------Style--------*/
+
+a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 1em;
+    padding: 0.5em;
+    font-family: 'Amatic SC', cursive;
+    color: coral;
+    font-size: 2em;
+    text-decoration: none;
+    flex-basis: 300px;
+    background-color: skyblue;
+}
+
+
+/* ------------- STYLETILE ---------- */
+
+#styletile_container {
+    background-image: url("grafik/styletile.png");
+    background-size: 162.5%;
+    width: 100vw;
+    height: 56.5vw;
+    position: relative;
+    background-size: cover;
+
+}
+
+.styletile_move {
+    animation-name: styletile_move_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes styletile_move_kf {
+
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -199.01% 0;
+    }
+}
+
+#logo {
+    background-image: url("grafik/begood.png");
+    background-size: 100%;
+    width: 37.5vw;
+    height: 21.25vw;
+    position: relative;
+    left: 48vw;
+    z-index: 300;
+    top: -36vw;
+
+}
+
+#play_sprite {
+    background-image: url("grafik/playgame.png");
+    background-size: 200%, 100%;
+    width: 14.6vw;
+    height: 20.83vw;
+    position: absolute;
+    left: 80vw;
+    top: 2vw;
+    z-index: 300;
+    cursor: pointer;
+}
+
+.play_sprite_move {
+    animation-name: play_sprite_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes play_sprite_kf {
+
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 210% 0;
+    }
+}
+
+/*--------------- VALG YES ---------- */
+
+#yes {
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+    position: absolute;
+    font-weight: bold;
+    left: 5vw;
+    top: 10vw;
+    padding: 2px;
+    z-index: 300;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#no {
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+    position: absolute;
+    font-weight: bold;
+    left: 15vw;
+    top: 10vw;
+    padding: 2px;
+    z-index: 300;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#question {
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.2em;
+    position: absolute;
+    font-weight: bold;
+    left: 3vw;
+    top: 4vw;
+    padding: 2px;
+    z-index: 300;
+    border-radius: 10px;
+
+}
+
+#help {
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.2em;
+    position: absolute;
+    font-weight: bold;
+    left: 3vw;
+    top: 4vw;
+    padding: 2px;
+    z-index: 300;
+    border-radius: 10px;
+}
+
+#youwin {
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    position: absolute;
+    font-weight: bold;
+    left: 3vw;
+    top: 6vw;
+    padding: 2px;
+    z-index: 300;
+    border-radius: 10px;
+    transform: rotate(-20deg);
+}
+
+#lose {
+    background-image: url("grafik/slutning1.png");
+    background-size: 162.5%;
+    width: 162.5vw;
+    height: 56.5vw;
+    position: relative;
+    background-size: contain;
+    top: -21vw;
+
+
+}
+
+#slutning {
+    background-image: url("grafik/slutning2.png");
+    background-size: 162.5%;
+    width: 162.5vw;
+    height: 56.5vw;
+    position: relative;
+    background-size: contain;
+    top: -21vw;
+}
+
+
+.puls {
+    animation-name: puls_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes puls_kf {
+
+    0% {
+
+        transform: scale(1);
+    }
+
+    100% {
+
+        transform: scale(1.1);
+    }
+}
+
+#reset_sprite {
+    background-image: url("grafik/tryagain.png");
+    background-size: 200%, 100%;
+    width: 14.6vw;
+    height: 20.83vw;
+    position: absolute;
+    left: 80vw;
+    top: -3vw;
+    z-index: 300;
+    cursor: pointer;
+
+}
+
+.reset_sprite_move {
+    animation-name: reset_sprite_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes reset_sprite_kf {
+
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 210% 0;
+    }
+}
+
+
+#piano {
+    background-image: url(grafik/piano.png);
+    background-size: 100%;
+    width: 21.8vw;
+    height: 31.3vw;
+    position: absolute;
+    left: 15vw;
+    top: -50vw;
+}
+
+.piano_move {
+    animation-name: piano_move_kf;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    left: 15vw;
+    top: -50vw;
+    z-index: 7;
+
+}
+
+
+@keyframes piano_move_kf {
+
+    from {
+        left: 15vw;
+        top: -50vw;
+    }
+    to {
+        left: 8vw;
+        top: 26vw;
+    }
+}

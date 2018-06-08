@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="484.57" height="375.18" viewBox="0 0 484.57 375.18">
+  <title>politi (1)</title>
+  <g id="hat">
+    <path d="M129.63,295.09s1.88,6.44-3,6.3-5.93,1.92-5.93,1.92,8.39,19.23,16.13,17,27.69-11.14,24.41-17.76c0,0-4.25-1.51-7.3-.89,0,0-5.17.41-4-5.95S129.63,295.09,129.63,295.09Z" transform="translate(-75.06 -117.99)" fill="#d19974"/>
+    <path id="øre" d="M99.39,241.32s-7-10-8.34-5.71-7,17.12,1.39,25.68,15.3,7.13,15.3,7.13Z" transform="translate(-75.06 -117.99)" fill="#d1956d"/>
+    <path id="form" d="M118.16,193.54,95.92,209.23s-9,89.15,46.57,89.15,30.59-94.15,30.59-94.15Z" transform="translate(-75.06 -117.99)" fill="#d39e76"/>
+    <path id="hår_højre" data-name="hår højre" d="M175.86,228.48s6.95-4.28,0-22.82-13.9-4.28-13.9-4.28Z" transform="translate(-75.06 -117.99)"/>
+    <path d="M97.31,206.37S89.68,212.79,97,246c0,0,10.07-1.07,14.24-38.16S97.31,206.37,97.31,206.37Z" transform="translate(-75.06 -117.99)"/>
+    <ellipse id="øje_venstre" data-name="øje venstre" cx="52.33" cy="121.11" rx="8.84" ry="8.02" fill="#fff"/>
+    <ellipse id="øje_højre" data-name="øje højre" cx="91.26" cy="116.83" rx="8.84" ry="8.02" fill="#fff"/>
+    <ellipse cx="90.18" cy="116.87" rx="5.03" ry="4.56" fill="#07822c"/>
+    <ellipse cx="53.69" cy="121.43" rx="5.03" ry="4.56" fill="#07822c"/>
+    <path id="næse" d="M144.16,256.3s-6.67-8.56,6.68-8.56,5,8.56,5,8.56H144.16Z" transform="translate(-75.06 -117.99)" fill="#d18b5d"/>
+    <path id="venstre_arm" data-name="venstre arm" d="M86.93,322.31a7.14,7.14,0,0,0-2.14,3.54c-.26,1.87-3.24,34.32-3.24,34.32l-2.83,24.55v16.39s3.65,8.92,8.21,2.11c0,0-.42-7.8,1.32-10s1.82-8.63,1.82-8.63a30.06,30.06,0,0,1,0-6.45c.42-2.29,6.69-32.66,6.69-32.66s2.11-7.63,2.06-.67,3.45-3.38,3.45-3.38l-2.56-16s-5.73-5.95-7.08-4.72S86.93,322.31,86.93,322.31Z" transform="translate(-75.06 -117.99)" fill="#d39e76"/>
+    <path id="højre_arme" data-name="højre arme" d="M181.51,323.86l14.58-2.19s3.78,4.17,1.64,13l1.72,31.36,1.08,14.79s-.3,12.86-.64,13.58-5.14,7-8.57,4.6c0,0-2.23-2.24-1.12-10.16,0,0-1.4-2.23-3.65-2.25s-1.82-3.29-.24-3.68,3.11-5.47,2-10.06-4.61-31.11-4.61-31.11-1.07-3.84-3.7-2.55S181.51,323.86,181.51,323.86Z" transform="translate(-75.06 -117.99)" fill="#d39e76"/>
+    <path d="M129.42,468.26H110.05L110,423s1.45-5.33,9.81-6.13,9.6,7.19,9.6,7.19Z" transform="translate(-75.06 -117.99)" fill="#d39e76"/>
+    <path d="M152.61,469.69,151.78,423s.79-3.84,3.84-3.56,13.59.67,13.59.67,2.65.92,2.85,5.57.28,44.64.28,44.64S151.86,471.86,152.61,469.69Z" transform="translate(-75.06 -117.99)" fill="#d39e76"/>
+    <path d="M107.6,474.46s-1.06-6.36,2.84-6.33l19,.13s3.52,1,2.08,7.87S107.6,474.46,107.6,474.46Z" transform="translate(-75.06 -117.99)" fill="#113a4b"/>
+    <path d="M150.32,478.8s-2.79-6,2.29-9.11l19.73.63s4.26,1.94,1.24,7.15S150.32,478.8,150.32,478.8Z" transform="translate(-75.06 -117.99)" fill="#113a4b"/>
+    <path d="M107.6,474.46l24.11.48s7.34,8.72,4.49,13.87-32.16.79-32.16.79S98.82,486.41,107.6,474.46Z" transform="translate(-75.06 -117.99)" fill="#1f1f1f"/>
+    <path d="M149.62,476.13l24.53.25s9.3,11,3.8,14.41-32.28,0-32.28,0S139,489.61,149.62,476.13Z" transform="translate(-75.06 -117.99)" fill="#1f1f1f"/>
+    <path d="M135.78,321.79" transform="translate(-75.06 -117.99)" fill="none" stroke="#80bc56" stroke-miterlimit="10"/>
+    <path d="M140,325.34s17.77-23.55,20.77-23.06c47.53,7.72,36.34,19.62,36.34,19.62-10.77.48-12.4,4.7-12.4,4.7l-1.45,72.55c-50.86,49.45-85.44-6.53-85.44-6.53s2.17-59.43.68-64.93S86,322.23,86,322.23c-12.19-27.71,36.59-19.34,36.59-19.34Z" transform="translate(-75.06 -117.99)" fill="#113a4b"/>
+    <polyline points="63.76 214.2 65.45 217.19 85.15 183.85 65.45 193.29 46.92 184.46 63.76 214.2" fill="#e8e8e8"/>
+    <g>
+      <path d="M94.53,202.09S75.06,199.24,75.06,185c0,0,43.1-11.41,41.71-25.68,0,0,36.15,11.41,51.44-24.25,0,0,16.69,25.68,20.86,22.83s-9.73,30-15.29,28.52v14.27l-77.86,8.56Z" transform="translate(-75.06 -117.99)" fill="#113a4b"/>
+      <path d="M102.87,206.37s26.42,21.4,62.56,10c0,0,36.15-4.28,5.57-17.12S102.87,206.37,102.87,206.37Z" transform="translate(-75.06 -117.99)" fill="#113a4b"/>
+      <polygon points="19.46 84.1 20.86 91.23 98.71 82.67 98.71 74.11 19.46 84.1"/>
+      <ellipse cx="83.42" cy="63.42" rx="5.56" ry="7.85" fill="#d3ac44"/>
+    </g>
+    <path d="M97.84,392.62l2.06,72.54h35.88c1.61,0,.46-52.09.46-52.09h7.38l5.94,52.09h30.13l3.59-66Z" transform="translate(-75.06 -117.99)" fill="#113a4b"/>
+    <polygon points="22.78 274.63 108.22 274.63 107.98 285.59 22.78 286.72 22.78 274.63"/>
+    <rect x="54.35" y="273.03" width="22.36" height="14.76" fill="#bf9948"/>
+    <path d="M112.72,223.78v7.06s16.95-7.21,29.35.79L138,226.29S117.43,218.6,112.72,223.78Z" transform="translate(-75.06 -117.99)"/>
+    <path d="M151,227.82l1.34-3.43s16.12-10.06,24.2-4.71l1.2,6.17S165.7,220.88,151,227.82Z" transform="translate(-75.06 -117.99)"/>
+    <path d="M130.28,262.74l21.64,6.6S132.1,284,130.28,262.74Z" transform="translate(-75.06 -117.99)" fill="#fff"/>
+    <path d="M131.1,266.58c7.72,2.09,13.44,3.86,13.44,3.86" transform="translate(-75.06 -117.99)" fill="#fff" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+  </g>
+  <g id="Layer_11" data-name="Layer 11">
+    <path d="M314.05,389.85" transform="translate(-75.06 -117.99)" fill="#efe149"/>
+    <path d="M265.31,161.81s-3.17-11.24,11.07-11.24H422.47s8.64-2.35,8.64,11.24V486s1.84,7-5.5,7H271.1s-5.79,1.88-5.79-7.54Z" transform="translate(-75.06 -117.99)" fill="#fff"/>
+    <polygon points="195.02 107.87 168.83 125.03 195.02 143.26 195.02 107.87" fill="#fff"/>
+    <text transform="translate(199.26 49.98)" font-size="12" font-family="KohinoorBangla-Bold, Kohinoor Bangla" font-weight="700"><tspan fill="#ff8e31"><tspan letter-spacing="-0.03em">F</tspan><tspan x="6.08" y="0">or det er faktisk </tspan><tspan x="0" y="14.4">st</tspan><tspan x="10.78" y="14.4" letter-spacing="-0.02em">r</tspan><tspan x="15.59" y="14.4">afba</tspan><tspan x="40.51" y="14.4" letter-spacing="0.02em">r</tspan><tspan x="45.74" y="14.4">t og ul</tspan><tspan x="82.63" y="14.4" letter-spacing="-0.02em">o</tspan><tspan x="89.5" y="14.4">vligt: </tspan><tspan x="0" y="57.6">- </tspan><tspan x="7.85" y="57.6" letter-spacing="-0.02em">A</tspan><tspan x="15.58" y="57.6" letter-spacing="0em">t videresende </tspan><tspan x="0" y="72">nøgenbilleder af andre.</tspan><tspan x="0" y="100.8">- </tspan><tspan x="7.85" y="100.8" letter-spacing="-0.02em">A</tspan><tspan x="15.58" y="100.8" letter-spacing="0em">t lægge nøgenbilleder af </tspan><tspan x="0" y="115.2">andre ud på nettet. </tspan><tspan x="0" y="144">Ud</tspan><tspan x="15.54" y="144" letter-spacing="-0.02em">o</tspan><tspan x="22.4" y="144">ver at det er st</tspan><tspan x="107.18" y="144" letter-spacing="-0.02em">r</tspan><tspan x="112" y="144">afba</tspan><tspan x="136.92" y="144" letter-spacing="0.02em">r</tspan><tspan x="142.15" y="144">t, </tspan><tspan x="0" y="158.4">er det heller ik</tspan><tspan x="84.79" y="158.4" letter-spacing="-0.03em">k</tspan><tspan x="91.29" y="158.4">e sj</tspan><tspan x="110.93" y="158.4" letter-spacing="-0.02em">o</tspan><tspan x="117.79" y="158.4">vt </tspan><tspan x="132.56" y="158.4" letter-spacing="-0.02em">f</tspan><tspan x="137.01" y="158.4">or </tspan><tspan x="0" y="172.8">personen det går ud </tspan><tspan x="119.1" y="172.8" letter-spacing="-0.02em">o</tspan><tspan x="125.96" y="172.8" letter-spacing="0em">ver. </tspan><tspan x="0" y="201.6" letter-spacing="-0.03em">F</tspan><tspan x="6.08" y="201.6">or at </tspan><tspan x="36.32" y="201.6" letter-spacing="-0.04em">h</tspan><tspan x="43.18" y="201.6">øre mere,</tspan></tspan><tspan x="0" y="216" fill="#ff8e31">læs, chat eller ring:</tspan><tspan x="111.12" y="216"> </tspan></text>
+    <text transform="translate(166.98 15.31)" font-size="18" fill="#ff8e31" font-family="KohinoorBangla-Bold, Kohinoor Bangla" font-weight="700">Godt du ik<tspan x="87.95" y="0" letter-spacing="-0.03em">k</tspan><tspan x="97.7" y="0">e delte billedet!</tspan></text>
+  </g>
+</svg>

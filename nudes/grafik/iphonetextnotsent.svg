@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="728.25" height="900" viewBox="0 0 728.25 900">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d5d6d9;
+      }
+
+      .cls-2 {
+        fill: #ededed;
+      }
+
+      .cls-3 {
+        fill: #bcbcbc;
+      }
+
+      .cls-4 {
+        fill: #fcfcfc;
+      }
+
+      .cls-5 {
+        fill: #f6f6f6;
+      }
+
+      .cls-6 {
+        fill: #eaeaea;
+      }
+
+      .cls-11, .cls-16, .cls-7 {
+        font-size: 12px;
+      }
+
+      .cls-7 {
+        fill: #66bcf6;
+      }
+
+      .cls-34, .cls-7 {
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-11 {
+        stroke: #000;
+        stroke-width: 0.3px;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-19, .cls-21, .cls-22, .cls-23, .cls-24, .cls-35 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-11, .cls-16, .cls-26, .cls-30 {
+        font-family: KohinoorBangla-Regular, Kohinoor Bangla;
+      }
+
+      .cls-12, .cls-13, .cls-15, .cls-19, .cls-22, .cls-23, .cls-24, .cls-35 {
+        fill: none;
+      }
+
+      .cls-12, .cls-14 {
+        stroke: #0084ff;
+      }
+
+      .cls-13 {
+        stroke: #158ffe;
+      }
+
+      .cls-14 {
+        fill: #0084ff;
+      }
+
+      .cls-15 {
+        stroke: #0a88ff;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-19 {
+        stroke: #66bcf6;
+      }
+
+      .cls-19, .cls-22, .cls-24 {
+        stroke-width: 2px;
+      }
+
+      .cls-20 {
+        fill: #d1d1db;
+      }
+
+      .cls-21 {
+        fill: #f2c89b;
+        stroke: #f4d7a7;
+      }
+
+      .cls-22, .cls-23 {
+        stroke: #f7e6cb;
+      }
+
+      .cls-23 {
+        stroke-width: 1.96px;
+      }
+
+      .cls-24 {
+        stroke: #1c1c1b;
+      }
+
+      .cls-25, .cls-29 {
+        fill: #838283;
+      }
+
+      .cls-25 {
+        opacity: 0.73;
+      }
+
+      .cls-26 {
+        opacity: 0.84;
+        font-size: 6px;
+      }
+
+      .cls-26, .cls-30 {
+        fill: #1d1d1b;
+      }
+
+      .cls-27 {
+        fill: #ae8a71;
+      }
+
+      .cls-28 {
+        fill: #6d5545;
+      }
+
+      .cls-29 {
+        opacity: 0.71;
+      }
+
+      .cls-30 {
+        opacity: 0.82;
+        font-size: 6px;
+      }
+
+      .cls-31 {
+        fill: #a1a5b3;
+      }
+
+      .cls-32 {
+        fill: #c3c4c7;
+      }
+
+      .cls-33 {
+        fill: #aeaeb1;
+      }
+
+      .cls-34 {
+        font-size: 10px;
+        fill: #adadad;
+      }
+
+      .cls-35 {
+        stroke-width: 4px;
+        stroke: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="370.99" y1="832.04" x2="370.99" y2="777.88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3e3e3c"/>
+      <stop offset="0"/>
+      <stop offset="0.01" stop-color="#9d9d9c"/>
+      <stop offset="0.41" stop-color="#f7f7f7"/>
+      <stop offset="0.61" stop-color="#fff"/>
+      <stop offset="0.95" stop-color="#959594"/>
+      <stop offset="1" stop-color="#242422"/>
+    </linearGradient>
+  </defs>
+  <title>iphonetextnotsent</title>
+  <g id="iphone">
+    <path class="cls-1" d="M226.17,853.47H522s32.65,3.06,33.67-43.88,0-654,0-654,4.08-41.83-34.69-47.95-285.67,0-285.67,0-37.75-2-45.91,40.81,0,672.36,0,672.36S198.62,858.57,226.17,853.47Z"/>
+    <path class="cls-2" d="M229,846H519s32,3,33-43,0-641,0-641,4-41-34-47-280,0-280,0-37-2-45,40,0,659,0,659S202,851,229,846Z"/>
+    <rect class="cls-1" x="553.83" y="236.01" width="4.67" height="46.22"/>
+    <rect class="cls-1" x="183.47" y="248.23" width="4.67" height="35.54"/>
+    <rect class="cls-1" x="183.47" y="209.54" width="4.67" height="21.22"/>
+    <rect class="cls-1" x="183.47" y="288.88" width="4.67" height="35.54"/>
+    <rect class="cls-3" x="552.08" y="184.41" width="3.68" height="13.63"/>
+    <rect class="cls-3" x="552.08" y="767.34" width="3.68" height="13.63"/>
+    <rect class="cls-3" x="189.49" y="767.34" width="3.68" height="13.63"/>
+    <rect class="cls-3" x="187.65" y="184.41" width="3.68" height="13.63"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <g id="skærm">
+      <rect class="cls-4" x="212.04" y="198.04" width="324" height="568"/>
+    </g>
+  </g>
+  <g id="Layer_8" data-name="Layer 8">
+    <polygon class="cls-5" points="212.04 198.03 536.04 198.03 212.04 766.03 212.04 198.03"/>
+  </g>
+  <g id="Layer_9" data-name="Layer 9">
+    <rect class="cls-6" x="211.54" y="198.04" width="324" height="55.65"/>
+    <text class="cls-7" transform="translate(229.61 233.99)"><tspan class="cls-8">S</tspan><tspan class="cls-9" x="5.88" y="0">ta</tspan><tspan class="cls-10" x="15.64" y="0">r</tspan><tspan x="19.85" y="0">tside </tspan></text>
+    <text class="cls-11" transform="translate(311.02 232.03)">Anne, Birgittet, +102..&gt;</text>
+    <path class="cls-12" d="M466.41,228.78a3.21,3.21,0,0,1,.94-3l-3.2-4.91s-1.6-1.14-3.88,2.17,3.54,9.36,3.54,9.36l9.47,7.64a4.25,4.25,0,0,0,4.33,0c2.17-1.37,2.62-2.51,2.51-3.08s-5.25-3.77-5.25-3.77-2.85,1.26-3.3,1S466.41,228.78,466.41,228.78Z"/>
+    <path class="cls-13" d="M485.37,225.52v10.66s-.39,2.62,5.09,2.62h12.32s2.05,0,2.15-4.3,0-9.68,0-9.68-.29-2.25-6.65-2.25h-9.19S485.37,222.51,485.37,225.52Z"/>
+    <polygon class="cls-13" points="506.2 228.04 506.2 233.32 512.16 236.55 512.16 224.82 506.2 228.04"/>
+    <circle class="cls-14" cx="231.19" cy="747.41" r="10.07"/>
+    <circle class="cls-12" cx="471.78" cy="748.47" r="9.01"/>
+    <path class="cls-12" d="M475.71,750.37s-3.84,5.56-8,0"/>
+    <circle class="cls-14" cx="469.69" cy="746.84" r="0.93"/>
+    <circle class="cls-14" cx="474.78" cy="746.84" r="0.93"/>
+    <g>
+      <rect class="cls-15" x="495.87" y="743.92" width="4.62" height="15.16"/>
+      <path class="cls-15" d="M502.79,743.92v13h14.34s1.89-.81,1-3.84c0,0,3.59-.7,1.13-3.66,0,0,3.59-2.18.56-4.36,0,0,3.38-2.82-.84-4.22h-7.39l-.28-5.14s-.29-3.31-4.16-3l.07,5.35Z"/>
+    </g>
+    <text class="cls-16" transform="translate(255.23 727.11)">Del de her billeder , så alle kan se <tspan x="0" y="14.4">h</tspan><tspan class="cls-17" x="6.89" y="14.4">v</tspan><tspan class="cls-9" x="12.54" y="14.4">o</tspan><tspan class="cls-18" x="19.25" y="14.4">r</tspan><tspan x="23.39" y="14.4">dan en utro kælling ser ud!</tspan></text>
+    <polyline class="cls-19" points="229.61 218.82 220.72 228.63 229.61 239.23"/>
+    <path class="cls-20" d="M346,611.73H255.23v100h80.94c3.5-2.33,6.53-4.66,9.84-7Z"/>
+    <path class="cls-20" d="M335.21,711.75H346v-7.88C342.38,706.5,339.05,709.13,335.21,711.75Z"/>
+    <g>
+      <path class="cls-21" d="M321.49,661.36s-.14-22.27-3.94-32.33a22.14,22.14,0,0,0-3.41-6,17.52,17.52,0,0,0-10.66-6.24l-.46-5.1h-9.5v4.93s-16.68,3.77-20.8,42.14h3.77s2.29-19.68,10.65-30.65a8.84,8.84,0,0,1,2.49-2.23c-8,8.73,1.38,28.22,1.38,28.22-12.55,17.21,0,56.85,0,56.85h18.82c.49-2.49,1.14-5.72,2-9.87,6.46-31.92-5.33-46.43-5.33-46.43s10.27-19,1.3-27.37c0,0,10.31,7.19,9.77,34Z"/>
+      <path class="cls-21" d="M309.92,711.75c.1-.46.16-.76.16-.76h-.25c-.06.26-.11.52-.15.76Z"/>
+      <path class="cls-22" d="M288.28,635s4.91,10.17,9.81,0"/>
+      <path class="cls-22" d="M300.69,635s4.91,10.17,9.82,0"/>
+      <polyline class="cls-23" points="299.8 711 299.8 673.75 303.02 669.56"/>
+      <line class="cls-22" x1="296.07" y1="670.06" x2="299.48" y2="673.47"/>
+      <path class="cls-24" d="M301.61,673.85a1.83,1.83,0,0,0,1.05.92"/>
+      <path class="cls-24" d="M300.16,667.77l1.28-1.23"/>
+      <path class="cls-24" d="M303.74,668h1.44"/>
+      <path class="cls-24" d="M304.82,670.45l2.12,1.15"/>
+      <path class="cls-24" d="M293.88,668.3a9,9,0,0,1-3.06-.33"/>
+      <path class="cls-24" d="M293.48,670.93c-.78.47-1.54,1-2.27,1.52"/>
+      <path class="cls-24" d="M296.38,668.67a3.71,3.71,0,0,1-1.57-2.52"/>
+      <path class="cls-24" d="M296,672.62l-1.61,2"/>
+      <path class="cls-24" d="M296.93,675.48l-1.29,1.95"/>
+      <path class="cls-24" d="M303.64,672.89a16.43,16.43,0,0,1,2,2.44"/>
+      <path class="cls-24" d="M301.23,676.19a3.93,3.93,0,0,1,1.58,2.17"/>
+      <rect class="cls-25" x="276.5" y="666.34" width="47.7" height="11.38" transform="translate(87.21 -32.53) rotate(7.25)"/>
+      <text class="cls-26" transform="translate(284.23 671.91) rotate(7.25)">Censureret</text>
+      <circle class="cls-27" cx="293.2" cy="637.58" r="1.87"/>
+      <path class="cls-27" d="M307.75,637.64a1.87,1.87,0,0,1-3.74,0,1.88,1.88,0,1,1,3.74,0Z"/>
+      <circle class="cls-28" cx="293.18" cy="637.75" r="0.68"/>
+      <circle class="cls-28" cx="305.88" cy="637.64" r="0.68"/>
+      <polyline class="cls-29" points="321.63 637.06 275.19 647.94 272.59 636.86 319.03 625.97"/>
+      <text class="cls-30" transform="matrix(0.97, -0.23, 0.23, 0.97, 281.96, 642.47)">Censureret</text>
+    </g>
+    <path class="cls-12" d="M453.37,728.38S459.27,753,437.12,753H260.9s-14.27,1.47-13.78-24.62,0-103.86,0-103.86.5-12.79,16.75-12.79H438.11s15.7.49,16,10.82S453.37,728.38,453.37,728.38Z"/>
+  </g>
+  <g id="Layer_7" data-name="Layer 7">
+    <circle class="cls-31" cx="251.54" cy="209.54" r="1"/>
+    <path class="cls-31" d="M248.54,206.54s-.71,2.12,1.39,1.14,3.18-.1,3.18-.1,1.74.92,1.18-.77S249.06,205.49,248.54,206.54Z"/>
+    <path class="cls-31" d="M246.8,204.25s-.62,2.38,1.44,1.4,3.76-2.07,6.16-.27,1.27-1.59,1.27-1.59S250.49,199.63,246.8,204.25Z"/>
+    <circle class="cls-31" cx="241.57" cy="206.39" r="1.84"/>
+    <circle class="cls-31" cx="229.52" cy="206.39" r="1.84"/>
+    <circle class="cls-31" cx="223.57" cy="206.39" r="1.84"/>
+    <circle class="cls-31" cx="218.5" cy="206.39" r="1.84"/>
+    <circle class="cls-31" cx="235.52" cy="206.39" r="1.84"/>
+    <polygon class="cls-32" points="514.68 202.74 514.68 210.54 531.29 210.54 531.29 208.55 532.38 208.55 532.38 204.55 531.29 204.55 531.29 202.74 514.68 202.74"/>
+    <rect class="cls-4" x="515.48" y="203.54" width="14" height="5.91"/>
+    <rect class="cls-33" x="515.43" y="203.54" width="8.72" height="5.91"/>
+    <text class="cls-34" transform="translate(492.22 209.84)">76%</text>
+    <text class="cls-34" transform="translate(359.39 208.71)">21:22</text>
+  </g>
+  <g id="Layer_6" data-name="Layer 6">
+    <circle class="cls-31" cx="375.54" cy="134.54" r="3.5"/>
+    <circle class="cls-31" cx="326.04" cy="156.04" r="4.5"/>
+    <path class="cls-31" d="M351.54,153.54h44s4,4,0,5h-44S347.54,154.54,351.54,153.54Z"/>
+  </g>
+  <g id="knap">
+    <circle class="cls-35" cx="370.99" cy="804.96" r="25.08"/>
+  </g>
+</svg>

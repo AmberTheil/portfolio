@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Kohinoor Bangla";
+    font-size: 3em;
+    color: #8fc6de;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Kohinoor Bangla";
+    text-align: center;
+    font-size: 2em;
+    color: #8fc6de;
+}
+
+h3 {
+    font-family: "Kohinoor Bangla";
+    font-size: 1em;
+    color: #8fc6de;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font: 1em;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: futura-pt, sans-serif;
+}
+
+header {
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px 0;
+    background-color: white;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, .5)
+}
+
+#menu_wrapper {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+
+nav {
+    margin-top: 34px;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    height: auto;
+    width: 100%;
+}
+
+#menu_wrapper {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+
+nav {
+    margin-top: 34px;
+    text-align: center;
+    float: none;
+    height: auto;
+    width: 100%;
+}
+
+
+nav ul li a {
+    font-size: 1em;
+    Letter-spacing: 0.1em;
+    color: #505A5B;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    border-top: solid #FFF 2px;
+}
+
+nav ul li a:hover {
+    color: #BCABAE;
+    border-top: solid rgb(244, 145, 45) 2px;
+}
+
+.handle {
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+    Letter-spacing: 0.1em;
+    color: #505A5B;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    ;
+}
+
+.handle:active {
+    color: rgb(244, 145, 45);
+}
+
+
+header {
+    height: 55px;
+}
+
+nav {
+    margin-top: 0;
+    float: right;
+    width: auto;
+}
+
+nav ul {
+    width: auto;
+    background-color: transparent;
+    padding-top: 0px;
+
+}
+
+nav ul li {
+    float: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 1.4em;
+    Letter-spacing: 0.1em;
+    color: #505A5B;
+    text-decoration: none;
+    padding: 20px 10px;
+    display: block;
+    border-top: solid #FFF 2px;
+}
+
+.handle {
+    display: none;
+}
+
+.showing {
+    font-size: 0.6em;
+}
+
+.border_bottom {
+    border-bottom: 200px solid rgba(75, 62, 87, 0.37);
+    z-index: 2;
+    width: 100%;
+}
+
+.pil_ned img {
+    max-width: 4vw;
+    margin: 0 auto;
+    transform: translateY(-0.4vw);
+    z-index: 1;
+}
+
+.pil_op img {
+    max-width: 4vw;
+    margin: 0 auto;
+    transform: translateY(1vw);
+    z-index: 1;
+}
+
+h2 {
+    padding-top: 6vh;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+img sekvensdiagram {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#animation a {
+    font-family: "Kohinoor Bangla";
+    font-size: 1em;
+    color: black;
+}
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 2%;
+    font-style: normal;
+}
+
+body p {
+    line-height: 2;
+}
+
+ul {
+    padding: 0;
+}
+
+
+.pil_ned img {
+    max-width: 4vw;
+    margin: 0 auto;
+    transform: translateY(-0.4vw);
+    z-index: 1;
+}
+
+.pil_op img {
+    max-width: 4vw;
+    margin: 0 auto;
+    transform: translateY(1vw);
+    z-index: 1;
+}
+
+#scene {
+
+    width: 79vw;
+    /* svarer til 2600px */
+    height: 56.25vw;
+    /* svarer til 900 px */
+    position: relative;
+    overflow: hidden;
+    margin-left: 8%;
+}
+
+
+
+#styletile_container {
+    background-image: url("grafik/styletile.png");
+    background-size: 100%;
+    width: 100%;
+    width: 83.333vw;
+    height: 47.08333vw;
+    margin: 2%;
+    margin-top: 10%;
+    position: relative;
+    background-size: cover;
+
+}
+
+.styletile_move {
+    animation-name: styletile_move_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes styletile_move_kf {
+
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -199.01% 0;
+    }
+}
+
+#logo {
+    background-image: url("grafik/begood.png");
+    background-size: 100%;
+    width: 37.5vw;
+    height: 21.25vw;
+    position: relative;
+    left: 48vw;
+    top: 20vw;
+
+}
+
+@media only screen and (max-width: 900px) {
+    #scene {
+
+        width: 79vw;
+        /* svarer til 2600px */
+        height: 56.25vw;
+        /* svarer til 900 px */
+        position: relative;
+        overflow: hidden;
+        margin-left: -10%;
+    }
+}
