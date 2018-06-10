@@ -368,7 +368,6 @@ li a:hover:not(.active) {
     color: white;
 }
 
-
 .sidenav .closebtn {
     position: absolute;
     color: #818181;
@@ -569,12 +568,6 @@ li a:hover:not(.active) {
     color: white;
 }
 
-h5 {
-    color: white;
-    font-size: 2.5em;
-    text-align: center;
-    display: inline-block;
-}
 
 .text_div {
     background-color: #888888;
