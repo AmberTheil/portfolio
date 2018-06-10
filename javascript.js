@@ -7,6 +7,9 @@ function sidenVises() {
     $("#billede-container").addClass("fade");
     $("#billede2-container").addClass("fade");
     $("#billede3-container").addClass("fade");
+    $("#billede4-container").addClass("fade");
+    $("#billede5-container").addClass("fade");
+    $("#billede6-container").addClass("fade");
     $(".text_div").addClass("textside");
     $("#styletile_container").addClass("styletile_move");
 
@@ -19,6 +22,9 @@ function stopfade() {
     $("#billede-container").removeClass("fade");
     $("#billede2-container").removeClass("fade");
     $("#billede3-container").removeClass("fade");
+    $("#billede4-container").removeClass("fade");
+    $("#billede5-container").removeClass("fade");
+    $("#billede6-container").removeClass("fade");
     $(".text_div").removeClass("textside");
 }
 

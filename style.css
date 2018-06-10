@@ -112,10 +112,6 @@ nav ul li a {
     color: #C3C3C3;
 }
 
-nav ul li a:hover {
-    background-color: #B9B9B9;
-    color: #e6e1c1;
-}
 
 nav p {
     margin-bottom: 10px;
@@ -185,7 +181,7 @@ nav #first {
 }
 
 #content div a div:hover {
-    color: #e6e1c1;
+    color: #888888;
     background: #FFF no-repeat center;
     opacity: 1;
 }
@@ -204,7 +200,7 @@ nav #first {
 /* --------- BILLEDER --------- */
 
 #aboutme {
-    background: url("img/mig2.png") no-repeat center;
+    background: url("img/mig.png") no-repeat center;
     background-size: cover;
     margin-bottom: 5vw;
     border: 2px solid #B9B9B9;
@@ -270,7 +266,7 @@ nav #first {
 /* -------- LINKS */
 
 .links {
-    background-color: #e6e1c1;
+    background-color: #888888;
     padding-top: 15px;
     height: 130px;
 }
@@ -381,7 +377,7 @@ li a:hover:not(.active) {
     top: -15vw;
     border: 2px solid #B9B9B9;
     width: 45vw;
-    height: 42vw;
+    height: 41.8vw;
     left: -1.5vw;
 }
 
@@ -413,10 +409,11 @@ li a:hover:not(.active) {
     border: 2px solid #B9B9B9;
     width: 60vw;
     height: 40vw;
-    left: 32vw;
+    top: -14vw;
+    left: -10vw;
 }
 
-#billede3-container {
+#billede4-container {
     position: absolute;
 }
 
@@ -432,6 +429,21 @@ li a:hover:not(.active) {
 }
 
 #billede5-container {
+    position: absolute;
+}
+
+#billede6-sprite {
+    background-image: url(img/keaapp.png);
+    background-size: 100%, 100%;
+    position: absolute;
+    top: -14vw;
+    border: 2px solid #B9B9B9;
+    width: 60vw;
+    height: 40vw;
+    left: -8vw;
+}
+
+#billede6-container {
     position: absolute;
 }
 
@@ -516,7 +528,7 @@ h5 {
 }
 
 .text_div {
-    background-color: #e6e1c1;
+    background-color: #888888;
     width: 130%;
     height: 6vw;
     padding: 1vw;
@@ -535,7 +547,7 @@ h5 {
 
 h6 {
     font-size: 1em;
-    color: #e6e1c1;
+    color: black;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -619,8 +631,53 @@ h6 {
 }
 
 
+/* -------- ommig--------- */
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.html {
+    width: 40%;
+    background-color: #FEF7D6;
+}
+
+.css {
+    width: 40%;
+    background-color: #FEF7D6;
+}
+
+.js {
+    width: 10%;
+    background-color: #FEF7D6;
+}
+
+.php {
+    width: 40%;
+    background-color: #FEF7D6;
+}
+
+
 
 /*---------------------Media queries-------------------*/
+
+@media screen and (max-width: 1100px) {
+
+    .text_div {
+        width: 130%;
+        height: 7vw;
+        padding: 1vw;
+
+    }
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -742,7 +799,6 @@ h6 {
         background-color: white;
         display: flex;
         flex-wrap: wrap;
-        padding: 20vw;
         padding-left: 30vw;
         float: right;
         width: 100%;
@@ -750,7 +806,158 @@ h6 {
 
     h4 {
         font-size: 1.3em;
-        color: #e6e1c1;
+        color: #E1E1E1;
     }
+
+    #billede6-sprite {
+        left: -5vw;
+    }
+
+    #billede5-sprite {
+        left: -5vw;
+    }
+    #billede4-sprite {
+        left: -5vw;
+    }
+    #billede3-sprite {
+        left: -5vw;
+    }
+    #billede2-sprite {
+        left: 3vw;
+    }
+    #billede-sprite {
+        left: -5vw;
+    }
+
+    .hs-responsive-embed-youtube iframe {
+        margin-left: -25vw;
+        margin-top: -9vw;
+        width: 100%;
+    }
+
+    #styletile_container {
+        left: 30vw;
+        top: 17vw;
+
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .text_div {
+        width: 130%;
+        height: 9vw;
+        padding: 1vw;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .text_div {
+        width: 130%;
+        height: 9vw;
+        padding: 1vw;
+
+    }
+
+    h5 {
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .text_div {
+        width: 130%;
+        height: 9vw;
+        padding: 1vw;
+
+    }
+
+    h5 {
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+        display: inline-block;
+    }
+
+    #content {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-left: 25vw;
+        padding-right: 20vw;
+        float: right;
+        width: 100%;
+    }
+
+    #content2 {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20vw;
+        padding-right: 25vw;
+        float: right;
+        width: 100%;
+    }
+
+    #content3 {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        float: right;
+        width: 100%;
+    }
+
+    #billede6-sprite {
+        left: 0vw;
+    }
+    #billede5-sprite {
+        left: 0vw;
+    }
+    #billede4-sprite {
+        left: 0vw;
+    }
+    #billede3-sprite {
+        left: 0vw;
+    }
+    #billede2-sprite {
+        left: 5vw;
+    }
+    #billede-sprite {
+        left: 0vw;
+    }
+
+
+    #plazavideo #content2 {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        float: right;
+        width: 100%;
+
+    }
+
+    #styletile_container {
+        left: 23vw;
+        top: 17vw;
+
+    }
+
+
+
+
+
 
 }
