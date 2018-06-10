@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+}
+
+img {
+    width: 50vw;
+    ;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    flex-basis: 500px;
+    flex-grow: 1;
+    padding: 1em;
+}
+
+.image {
+    flex-basis: 500px;
+    flex-grow: 1;
+}
+
+/* ---------- SKRIFTTYPE ------- */
+
+@font-face {
+    font-family: 'besom_extendedregular';
+    src: url('besom-extended-webfont.woff2') format('woff2'),
+    url('besom-extended-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+li {
+    color: white;
+}
+
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f8d1e4;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'besom_extendedregular';
+    /*    font-family: 'Besom extended';*/
+    font-size: 3em;
+    color: #f8d1e4;
+    line-height: 1.2em;
+}
+
+nav {
+    background-color: black;
+    padding: 1em;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+nav a {
+    color: white;
+    font-family: 'besom_extendedregular';
+    /*font-family: 'Besom extended';*/
+    text-decoration: none;
+    font-size: 2em;
+    display: inline-block;
+    padding: 0 1em 0 1em;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #f8d1e4;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+/* ---------- SECTIONS ---------- */
+
+#top {
+    height: 40vh;
+    width: 100%;
+    background-image: url(billeder/Purplelatte.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#top img {
+    width: 35vh;
+    padding-top: 2.5vh;
+}
+
+#video,
+#research,
+#prototype,
+#test,
+#oevrigt {
+    background-color: #171717;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
